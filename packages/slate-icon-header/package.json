@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@canner/slate-editor-renderer": "^1.2.8",
-    "@bmsterling/slate-icon-shared": "^1.2.8",
+    "@bmsterling/slate-icon-shared": "^1.2.9",
     "@canner/slate-util-have": "^0.1.2",
     "is-hotkey": "^0.1.2"
   }

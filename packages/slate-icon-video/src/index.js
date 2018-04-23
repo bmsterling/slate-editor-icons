@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
-import ToolbarIcon from '@canner/slate-icon-shared';
+import ToolbarIcon from '@bmsterling/slate-icon-shared';
 import VideoModal from '@canner/slate-editor-renderer/lib/components/videoModal';
 import videoNode, {DEFAULT as DEFAULT_VIDEO} from '@canner/slate-editor-renderer/lib/videoNode';
 

@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from "styled-components";
 import {IMAGE} from '@canner/slate-constant/lib/inlines';
-import {nodeAttrs} from '@canner/slate-icon-shared';
+import {nodeAttrs} from '@bmsterling/slate-icon-shared';
 
 export const ImageContiner = styled.img`
   src: ${props => props.src};

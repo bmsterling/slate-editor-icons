@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
-import ToolbarIcon from '@canner/slate-icon-shared';
+import ToolbarIcon from '@bmsterling/slate-icon-shared';
 import ImageUpload from '@canner/image-upload';
 import {IMAGE} from '@canner/slate-constant/lib/inlines';
 import imageNode from '@canner/slate-editor-renderer/lib/imageNode';

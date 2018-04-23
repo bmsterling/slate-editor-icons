@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-select-letterspacing",
+  "name": "@bmsterling/slate-select-letterspacing",
   "version": "1.2.8",
   "description": "A slate selector for changing letter spacing",
   "main": "./lib/index.js",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@canner/slate-editor-renderer": "^1.2.8",
-    "@canner/slate-icon-shared": "^1.2.8",
+    "@bmsterling/slate-icon-shared": "^1.2.8",
     "@canner/slate-select-shared": "^1.2.5",
     "lodash.omit": "^4.5.0"
   }

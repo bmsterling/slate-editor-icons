@@ -2,7 +2,7 @@
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
 import {HR} from '@canner/slate-constant/lib/blocks';
-import ToolbarIcon from '@canner/slate-icon-shared';
+import ToolbarIcon from '@bmsterling/slate-icon-shared';
 
 export const HrPlugin = (opt) => {
   const options = Object.assign({

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ToolbarIcon, {markDecorator, markPlugin} from '@canner/slate-icon-shared';
+import ToolbarIcon, {markDecorator, markPlugin} from '@bmsterling/slate-icon-shared';
 import {UNDERLINE} from '@canner/slate-constant/lib/marks';
 
 export const UnderlinePlugin = (opt) => {

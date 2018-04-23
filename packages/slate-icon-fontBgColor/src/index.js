@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
-import ToolbarIcon, {markAttrs} from '@canner/slate-icon-shared';
+import ToolbarIcon, {markAttrs} from '@bmsterling/slate-icon-shared';
 import addMarkOverwrite from '@canner/slate-helper-mark-addoverwrite';
 import {haveMarks} from '@canner/slate-util-have';
 import {getMarkType} from '@canner/slate-util-get';

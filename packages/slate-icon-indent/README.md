@@ -15,5 +15,5 @@ import {Indent, Outdent} from '@canner/slate-icon-indent';
 **Plugin:**
 
 ```js
-import {ParagraphPlugin} from '@canner/slate-icon-shared';
+import {ParagraphPlugin} from '@bmsterling/slate-icon-shared';
 ```

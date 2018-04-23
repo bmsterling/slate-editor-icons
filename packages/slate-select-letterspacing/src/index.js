@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
-import {markAttrs} from '@canner/slate-icon-shared';
+import {markAttrs} from '@bmsterling/slate-icon-shared';
 
 import {Dropdown, Menu} from 'antd';
 import {LETTERSPACING} from '@canner/slate-constant/lib/marks';

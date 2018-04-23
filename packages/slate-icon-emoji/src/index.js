@@ -2,7 +2,7 @@
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
 import EmojiMartPicker from 'emoji-mart-picker';
-import ToolbarIcon from '@canner/slate-icon-shared';
+import ToolbarIcon from '@bmsterling/slate-icon-shared';
 import {EMOJI} from '@canner/slate-constant/lib/inlines';
 import emojiNode from '@canner/slate-editor-renderer/lib/emojiNode';
 

@@ -3,7 +3,7 @@ import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
 import {Dropdown, Menu} from 'antd';
 import {SharedBlockSelectorDecoration} from '@canner/slate-select-shared';
-import ToolbarIcon from '@canner/slate-icon-shared';
+import ToolbarIcon from '@bmsterling/slate-icon-shared';
 
 @SharedBlockSelectorDecoration('lineHeight')
 export default class LetterSpacing extends React.Component<IconProps> {

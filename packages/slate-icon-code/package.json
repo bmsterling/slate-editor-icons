@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-icon-code",
+  "name": "@bmsterling/slate-icon-code",
   "version": "1.2.8",
   "description": "A slate icon for code",
   "main": "lib/index.js",
@@ -24,6 +24,6 @@
   },
   "dependencies": {
     "@canner/slate-editor-renderer": "^1.2.8",
-    "@canner/slate-icon-shared": "^1.2.8"
+    "@bmsterling/slate-icon-shared": "^1.2.8"
   }
 }

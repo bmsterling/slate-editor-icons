@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-icon-italic",
+  "name": "@bmsterling/slate-icon-italic",
   "version": "1.2.8",
   "description": "A slate icon for italic",
   "main": "lib/index.js",
@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "@canner/slate-editor-renderer": "^1.2.8",
-    "@canner/slate-icon-shared": "^1.2.8"
+    "@bmsterling/slate-icon-shared": "^1.2.8"
   }
 }

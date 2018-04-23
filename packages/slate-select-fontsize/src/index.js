@@ -2,8 +2,8 @@
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
 import {Dropdown, Menu} from 'antd';
-import ToolbarIcon from '@canner/slate-icon-shared';
-import {markAttrs} from '@canner/slate-icon-shared';
+import ToolbarIcon from '@bmsterling/slate-icon-shared';
+import {markAttrs} from '@bmsterling/slate-icon-shared';
 import {FONTSIZE} from '@canner/slate-constant/lib/marks';
 import {SharedMarkSelectorDecoration} from '@canner/slate-select-shared';
 import commonMark from '@canner/slate-editor-renderer/lib/commonMark';

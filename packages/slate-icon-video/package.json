@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-icon-video",
+  "name": "@bmsterling/slate-icon-video",
   "version": "1.2.8",
   "description": "Slate icon for video",
   "main": "lib/index.js",
@@ -30,6 +30,6 @@
   "dependencies": {
     "@canner/image-upload": "^0.10.0",
     "@canner/slate-editor-renderer": "^1.2.8",
-    "@canner/slate-icon-shared": "^1.2.8"
+    "@bmsterling/slate-icon-shared": "^1.2.8"
   }
 }

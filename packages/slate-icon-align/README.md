@@ -23,7 +23,7 @@ import {AlignCenter, AlignLeft, AlignRight} from '@canner/slate-icon-align';
 ## Plugin
 
 ```js
-import {ParagraphPlugin} from '@canner/slate-icon-shared';
+import {ParagraphPlugin} from '@bmsterling/slate-icon-shared';
 
 const plugin = [
   ParagraphPlugin(option)

@@ -2,7 +2,7 @@ import OlListIcon from './olList';
 import UlListIcon from './ulList';
 import {OL_LIST, UL_LIST, LIST_ITEM} from '@canner/slate-constant/lib/blocks';
 
-import {nodeAttrs} from '@canner/slate-icon-shared';
+import {nodeAttrs} from '@bmsterling/slate-icon-shared';
 import commonNode from '@canner/slate-editor-renderer/lib/commonNode';
 
 export const ListPlugin = (opt) => {

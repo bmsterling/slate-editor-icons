@@ -11,7 +11,7 @@ import {HEADING_1, HEADING_2, HEADING_3, HEADING_4, HEADING_5, HEADING_6, PARAGR
 import isHotkey from 'is-hotkey';
 
 import commonNode from '@canner/slate-editor-renderer/lib/commonNode';
-import {nodeAttrs} from '@canner/slate-icon-shared';
+import {nodeAttrs} from '@bmsterling/slate-icon-shared';
 
 const plugin = (type, tagName, hotkey) => {
   return {

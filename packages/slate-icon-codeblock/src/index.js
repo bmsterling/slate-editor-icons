@@ -3,7 +3,7 @@ import * as React from 'react';
 import {Data} from 'slate';
 import type {IconProps} from 'shared/src/types';
 import {Modal, Button, Form, Select} from 'antd';
-import ToolbarIcon from '@canner/slate-icon-shared';
+import ToolbarIcon from '@bmsterling/slate-icon-shared';
 import PluginEditCode from 'slate-edit-code';
 import {CODE, CODE_LINE, PARAGRAPH} from '@canner/slate-constant/lib/blocks';
 import {codeBlockNode, codeLineNode} from '@canner/slate-editor-renderer/lib/codeBlockNode';

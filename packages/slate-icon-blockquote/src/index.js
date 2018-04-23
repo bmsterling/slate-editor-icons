@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import type {IconProps} from 'shared/src/types';
-import ToolbarIcon, {nodeAttrs} from '@canner/slate-icon-shared';
+import ToolbarIcon, {nodeAttrs} from '@bmsterling/slate-icon-shared';
 import blockquote, {DEFAULT} from '@canner/slate-helper-block-quote';
 import {BLOCKQUOTE} from '@canner/slate-constant/lib/blocks';
 import EditBlockquote from 'slate-edit-blockquote'

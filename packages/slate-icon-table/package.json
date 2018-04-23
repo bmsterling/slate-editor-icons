@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-icon-table",
+  "name": "@bmsterling/slate-icon-table",
   "version": "1.2.9-0",
   "description": "A slate icon for table",
   "main": "lib/index.js",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@canner/slate-editor-renderer": "^1.2.8",
-    "@canner/slate-icon-shared": "^1.2.8",
+    "@bmsterling/slate-icon-shared": "^1.2.8",
     "create-table-picker": "^0.1.2",
     "lodash.omit": "^4.5.0",
     "slate-edit-table": "^0.15.0-alpha.4"

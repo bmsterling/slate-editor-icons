@@ -1,6 +1,6 @@
 {
-  "name": "@canner/slate-icon-shared",
-  "version": "1.2.8",
+  "name": "@bmsterling/slate-icon-shared",
+  "version": "1.2.9",
   "description": "Shared utils and functions for slate icons",
   "main": "lib/index.js",
   "directories": {

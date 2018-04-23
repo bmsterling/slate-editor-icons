@@ -53,7 +53,8 @@ type Props = {
   isActive?: bool,
   disabled?: bool,
   change: Change,
-  onChange: (change: Change) => void
+  onChange: (change: Change) => void,
+  children?: React.Node,
 }
 
 export const ParagraphPlugin = (opt) => {
@@ -97,7 +98,8 @@ export default class ToolbarIcon extends React.Component<Props> {
       thinClassName,
       className,
       colorStyle,
-      onChange
+      onChange,
+      children,
     } = this.props;
 
     const iconClassName = isActive ? activeClassName : className;
@@ -109,21 +111,27 @@ export default class ToolbarIcon extends React.Component<Props> {
     const iconTransparentClassName = isActive ? activeTransparentClassName : transparentClassName;
     const iconThinClassName = isActive ? activeThinClassName : thinClassName;
 
-    const fontElement = React.createElement(
-      QuillIcons[icon],
-      Object.assign({
-        onChange: onChange,
-        colorStyle: colorStyle,
-        className: disabled ? cx(iconClassName, disableClassName) : iconClassName,
-        strokeClassName: iconStrokeClassName,
-        strokeMitterClassName: iconStrokeMitterClassName,
-        fillClassName: iconFillClassName,
-        evenClassName: iconEvenClassName,
-        colorLabelClassName: iconColorLabelClassName,
-        transparentClassName: iconTransparentClassName,
-        thinClassName: iconThinClassName
-      })
-    );
+    let fontElement = null;
+
+    if (children) {
+      fontElement = children;
+    } else {
+      fontElement = React.createElement(
+        QuillIcons[icon],
+        Object.assign({
+          onChange: onChange,
+          colorStyle: colorStyle,
+          className: disabled ? cx(iconClassName, disableClassName) : iconClassName,
+          strokeClassName: iconStrokeClassName,
+          strokeMitterClassName: iconStrokeMitterClassName,
+          fillClassName: iconFillClassName,
+          evenClassName: iconEvenClassName,
+          colorLabelClassName: iconColorLabelClassName,
+          transparentClassName: iconTransparentClassName,
+          thinClassName: iconThinClassName
+        })
+      );
+    }
 
     return (
       <span
